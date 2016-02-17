@@ -9,5 +9,5 @@
 	        );
 	 ?>
 	 <label class="Header-label2" for="menu">
-	 	<span class="icon-menu"></span>
+	 	<span class="icon-close"></span>
 	 </label>

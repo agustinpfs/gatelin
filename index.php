@@ -41,9 +41,17 @@ Template Name: Página index
 
 	$( ".Index-article" ).hover(
 	  function() {
-	    $( this ).find( ".Index-excerpt" ).slideToggle(400)
+	    $( this ).find( ".Index-excerpt" ).delay(200).slideToggle(400)
 	  }
 	);
+
+
+	// $( ".Index-article" ).mouseout(
+	//   function() {
+	//     $( this ).find( ".Index-excerpt" ).hide()
+	//   }
+	// );
+
 	// function showExcerpt() {
 	// $( ".Index-excerpt" ).slideToggle(500)
 
