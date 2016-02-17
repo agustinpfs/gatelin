@@ -1,4 +1,3 @@
-<div class="Header-navResponse">
 	<?php
 	    wp_nav_menu(
 	        array(
@@ -12,4 +11,3 @@
 	 <label class="Header-label2" for="menu">
 	 	<span class="icon-menu"></span>
 	 </label>
-</div>
