@@ -1,35 +1,36 @@
-<footer class="Footer">
-	<div class="Footer-top">
-		<aside class="Footer-social">
-			<ul>
-				<li class="Footer-google"><a href=""><span class="icon-google-plus2"></span></a></li>
-				<li class="Footer-facebook"><a href=""><span class="icon-facebook2"></span></a></li>
-				<li class="Footer-twitter"><a href=""><span class="icon-twitter"></span></a></li>
-				<li class="Footer-instagram"><a href=""><span class="icon-instagram"></span></a></li>
-				<li class="Footer-youtube"><a href=""><span class="icon-phone"></span></a></li>
-			</ul>
-		</aside>
-		<aside class="Footer-subscribe">
-			<div class="Footer-form">
-				<input type="text" placeholder="e-mail">
-				<input type="submit" value="subscribe">
-			</div>
-
-		</aside>
-		<aside class="Footer-menu">
-				<?php
-			    wp_nav_menu(
-			        array(
-			            'theme_location' => 'menu-footer',
-			            'container'       => 'nav',
-			            'container_class' => 'Footer-nav',
-			            'menu_class'      => 'Footer-list'
-			            )
-			        );
-			 ?>
-		</aside>
-	</div>
-	<div class="Footer-bottom">
-		<small><i>© 2016 Fina Theme - Agustín Palmieri. </i></small>
-	</div>
-</footer>
+<div class="Footer">
+  <div class="Footer-left">
+    <div class="Footer-title">
+      <img src="http://localhost/wp-content/uploads/2016/02/logo.png" alt=""/></span><h1><?php bloginfo('title' ); ?></h1>
+    </div>
+    <div class="Footer-copy"><small>© 2016 GatelinSRL</small><small>Diseño por <a href="#">Pandawebs</a></small></div>
+  </div>
+  <div class="Footer-center">
+    <aside class="Footer-menu">
+  		<?php
+  	    wp_nav_menu(
+  	        array(
+  	            'theme_location' => 'menu-footer',
+  	            'container'       => 'nav',
+  	            'container_class' => 'Footer-nav',
+  	            'menu_class'      => 'Footer-list'
+  	            )
+  	        );
+  	 ?>
+	  </aside>
+  </div>
+  <div class="Footer-right">
+    <div class="Footer-social">
+<!--       <h3>Social</h3>
+ -->      <ul>
+        <li><a href="#" class="icon-google-plus2"></a></li>
+        <li><a href="#" class="icon-facebook2"></a></li>
+        <li><a href="#" class="icon-twitter"></a></li>
+      </ul>
+    </div>
+    <div class="Footer-leyend"><em>
+        <p>"Mi consejo es que no te preguntes por qué o de dónde, sino que disfrutes de tu helado mientras está en el plato. Esta es mi filosofía.” 
+         </p> <p>― Thornton Wilder
+</p></em></div>
+  </div>
+</div>
