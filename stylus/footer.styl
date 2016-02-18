@@ -38,6 +38,7 @@
 		h1
 			margin-left .5rem
 	&-center
+		display none
 		h3 
 			margin-bottom .5rem
 		ul 
@@ -91,13 +92,15 @@
 			margin 0
 			padding 0
 			color grey
+			display none
 			
 
 
-// @media (max-width: 850px)
-// 	.Footer
-// 		&-center
-// 			display none
+@media (min-width: 700px)
+	.Footer
+		&-center
+		&-leyend
+			display block
 			
 // @media (max-width: 550px)
 // 	.Footer
