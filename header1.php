@@ -18,7 +18,5 @@
 			</div>
 		</div>
 	</div>
-	<div class="Header-image">
-		<?php include TEMPLATEPATH . '/image.php' ?>
-	</div>
+	
 </div>

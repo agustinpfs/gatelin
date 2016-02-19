@@ -5,6 +5,9 @@ Template Name: Página index
 <?php get_header(); ?>
 
 <?php include TEMPLATEPATH . '/header1.php' ?>
+<div class="Index-image">
+	<?php include TEMPLATEPATH . '/image.php' ?>
+</div>
 
 <div class="Index">
 	<?php rewind_posts(); ?>
