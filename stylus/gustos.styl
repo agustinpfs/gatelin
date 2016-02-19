@@ -1,12 +1,73 @@
 .Gustos
-	width 300px
-	margin 0 auto
-	background-color #eee
+	background-color #E3E3E3
+	
+	height 100vh
+	width:  100%
+	span
+		color red
+	h1
+		background-color #773b00
+		color #E3E3E3
+		width: 100%
+		text-align center
+	article
+		width 300px
+		margin 0 auto
+		padding-left .5rem
+	p 
+		margin 0 0 0 .5rem
 	&-crema-list
 	&-chocolates-list
 	&-dleche-list
 	&-agua-list
 		display: none
+		background-color #FAFAFA
+		// padding-left .5rem
+	&-all-list
+		background-color #FAFAFA
+		// padding-left .5rem
+	&-body 
+		background-color #E3E3E3
+	
 	h3 
 		border-bottom: 1px solid grey
-		border-top: 1px solid white
+		border-top: 1px solid #FAFAFA
+		font-size 1.2rem
+		margin:  0
+		padding 1rem .5rem
+		color #454545
+	&-crema-h3
+		border-top: 1px solid transparent !important
+
+	
+	h4	
+		margin .5rem 0 0 .5rem
+		padding: .5rem 0
+		
+.is-disabled
+	background-color #D6D6D6
+	border-top: 1px solid transparent !important
+	border-bottom: 1px solid #FAFAFA !important
+	
+
+@media (min-width: 700px)
+	.Gustos
+		background: url(http://localhost/wp-content/uploads/2016/02/gustos-back.jpg) no-repeat center center fixed
+		background-size: cover
+		&-article
+			display flex
+		&-crema-list
+		&-chocolates-list
+		&-dleche-list
+		&-agua-list
+			display: block
+		&-all
+			display none
+		h3			
+			pointer-events: none
+			cursor: default
+			border-top: 1px solid transparent
+			background-color alpha(#773b00, .8)
+			color #E3E3E3
+	
+			
