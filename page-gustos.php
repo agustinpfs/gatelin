@@ -105,7 +105,8 @@ Template Name: Página gustos
 			</article>
 		</div>
 	</main>
-
+	<?php get_footer(); ?>
+	
 <script>
 
 function closeAll () {    
