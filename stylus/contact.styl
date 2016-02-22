@@ -1,0 +1,62 @@
+.Contact
+	display: none
+	position: fixed
+	margin-left: auto
+	margin-right: auto
+	left:0
+	right:0
+	width:95%
+	height:80%
+	top: 10%
+	background-color: #1d1d1d
+	opacity .95
+	z-index: 21
+	border 3px solid gatelin
+	&-form
+		position: absolute
+		margin-left: auto
+		margin-right: auto
+		left:0
+		right:0
+		top 1%
+		width:90%
+		height:90%
+		color white
+		input
+		textarea
+			width 100%
+			background-color transparent
+			color white
+			margin-top 3%
+			border 1px solid #999
+			height 30px
+			font-family: Lato
+		textarea
+			height 40%
+		span 
+			font-size: 1rem
+			margin-right .5rem
+			// padding-top .5rem !important
+			a 
+				color white
+	&-close
+		background-color transparent
+		color white
+		position: absolute
+		bottom 10px
+		margin-left: auto
+		margin-right: 10px
+		font-family: Lato
+		right:0
+		border 2px solid gatelin
+	&-submit
+		background-color alpha(gatelin, .7) !important
+		border 0 !important
+		margin-bottom .5rem
+	&-submit:hover
+		background-color alpha(gatelin, .5) !important
+
+
+@media (min-width: 700px)
+	.Contact
+		width 75%

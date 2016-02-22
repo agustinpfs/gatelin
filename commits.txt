@@ -1,0 +1,77 @@
+commit bab96561a748212db16218c142a343ebbdf34801
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Mon Feb 22 06:46:02 2016 -0300
+
+    add general page with sidebar general
+
+commit ab2518b324700cf5d1d8d4b1f177f67eb2ba9b3d
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Sat Feb 20 15:58:31 2016 -0300
+
+    add products pages whit sidebar
+
+commit 11eebfc3bbbd55068cc1f5347fd411e2ea179e84
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Fri Feb 19 13:00:16 2016 -0300
+
+    page gustos for desktop and mobil
+
+commit b6a14fa5fd7e423004cc09fa882f964e5eadde56
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Thu Feb 18 21:28:57 2016 -0300
+
+    page gustos(flavors)
+
+commit 18cf81389b0ab1cf70a2be23af39130223f7feb9
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Feb 17 23:49:26 2016 -0300
+
+    responsive footer
+
+commit 94af323ce6163220f9941c4067010f6eb7380e05
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Feb 17 21:10:58 2016 -0300
+
+    footer ok
+
+commit e33af6d474f18a4ac024837d6323976e3b57434f
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Feb 17 18:44:47 2016 -0300
+
+    add image header & test footer
+
+commit 6e2248dea186ad43ca66d797f8c6b69affe02c0c
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Wed Feb 17 14:19:48 2016 -0300
+
+    add articles index
+
+commit c3d9d8a7e92ba4ef80c803836c1438c7089308c7
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Feb 16 22:55:47 2016 -0300
+
+    add header - menu top
+
+commit 5c41cd5ade3a047e1235bf66cc3ff608c5ff0798
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Feb 16 16:40:27 2016 -0300
+
+    add header structure responsive - mobil first
+
+commit 539b5ed7ec457727b618cc5e0b6e33639c43b645
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Feb 16 11:00:39 2016 -0300
+
+    add header.php content
+
+commit c2ff5ab597a84fe3582245bc275a1884b30c0d8d
+Author: agustinpfs <agustinpfs@gmail.com>
+Date:   Tue Feb 16 10:57:20 2016 -0300
+
+    performance test. theme,stylus and first estructure
+
+commit 1e57c533f5e453206b1d024d00ab6b31e517d45d
+Author: Agustín <agustinpfs@users.noreply.github.com>
+Date:   Tue Feb 16 09:16:55 2016 -0300
+
+    Initial commit
