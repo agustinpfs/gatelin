@@ -6,6 +6,7 @@ Template Name: Página gustos
 <?php get_header() ?>
 
 <?php include TEMPLATEPATH . '/header1.php' ?>
+<?php include TEMPLATEPATH . '/contact.php' ?>
 
 	<main class="Gustos">
 		<div class="Gustos-article">

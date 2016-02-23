@@ -6,6 +6,8 @@ Template Name: Página coffe
 <?php get_header() ?>
 
 <?php include TEMPLATEPATH . '/header1.php' ?>
+<?php include TEMPLATEPATH . '/contact.php' ?>
+
 
 <body class="Products">
 	<main class="Products-main">
@@ -35,4 +37,5 @@ Template Name: Página coffe
 			</section>
 		</section>
 	</main>
+	<?php get_footer(); ?>
 </body>

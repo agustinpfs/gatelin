@@ -20,3 +20,18 @@
 	</div>
 	
 </div>
+
+
+<script>
+	function subMenu () {    
+	    $('.sub-menu').toggle();
+	};
+
+	// function closeContact () {    
+	//     $('.Contact').fadeOut(1000);
+	// };
+
+	// $('.Header-contact, .Footer-contact').click( openContact );
+
+	$('.menu-item-192').click( subMenu );
+</script>

@@ -6,7 +6,8 @@
 	h1 
 		text-align center
 		margin-bottom 2rem
-	&-sidebar 
+	&-sidebar
+		display: none
 		padding: 2rem
 		li 
 			padding-bottom .5rem
@@ -19,3 +20,7 @@
 			// border-bottom 1px solid gatelin
 			padding-left .2rem
 		
+@media (min-width: 900px)
+	.Page
+		&-sidebar
+			display block

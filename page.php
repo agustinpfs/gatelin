@@ -1,6 +1,6 @@
 <?php get_header(); ?>	
 <?php include TEMPLATEPATH . '/header1.php' ?>
-
+<?php include TEMPLATEPATH . '/contact.php' ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <main class="Page">

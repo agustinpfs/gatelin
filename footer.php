@@ -34,3 +34,18 @@
 </p></em></div>
   </div>
 </div>
+
+<script>
+  function openContact () {    
+      $('.Contact').fadeIn(1000);
+      event.preventDefault();
+  };
+
+  function closeContact () {    
+      $('.Contact').fadeOut(1000);
+  };
+
+  $('.Header-contact, .Footer-contact').click( openContact );
+
+  $('.Contact-close').click( closeContact );
+</script>

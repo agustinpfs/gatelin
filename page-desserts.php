@@ -6,6 +6,7 @@ Template Name: Página desserts
 <?php get_header() ?>
 
 <?php include TEMPLATEPATH . '/header1.php' ?>
+<?php include TEMPLATEPATH . '/contact.php' ?>
 
 <body class="Products">
 	<main class="Products-main">

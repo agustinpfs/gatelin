@@ -1,6 +1,6 @@
 .Header
 	background-color black
-	color grey-clear
+	color white-d
 	
 	&-logo
 		display flex
@@ -34,6 +34,7 @@
 		right 0
 		bottom -2rem
 		background-color black-clear
+		
 	&-list
 		li 
 			padding-top .5rem
@@ -60,7 +61,24 @@
 			.Header-list
 				display flex
 				
-				    
+			    
+.menu-item-192
+	position: relative
+	ul 
+		display none
+		position absolute
+		bottom -10rem
+		right 0
+		left 0
+		margin-left auto
+		margin-right auto
+		z-index: 22
+		width 150px
+		background-color black
+.sub-menu
+	display none
+		
+
 
 @media (min-width: 700px)
 	.Header
@@ -77,6 +95,9 @@
 				font-size: 1rem			
 		&-label 
 			display none
+		&-label2
+			.icon-close
+				display none
 
 
 
