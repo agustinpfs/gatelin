@@ -3,7 +3,7 @@
     <div class="Footer-title">
       <img src="http://localhost/wp-content/uploads/2016/02/logo.png" alt=""/></span><h1><?php bloginfo('title' ); ?></h1>
     </div>
-    <div class="Footer-copy"><small>© 2016 GatelinSRL</small><small>Diseño por <a href="#">Pandawebs</a></small></div>
+    <div class="Footer-copy"><small>© 2016 GatelinSRL</small><small>Diseño por <a href="http://pandawebs.net/" target="blank">Pandawebs</a></small></div>
   </div>
   <div class="Footer-center">
     <aside class="Footer-menu">
@@ -28,10 +28,10 @@
         <li><a href="#" class="icon-twitter"></a></li>
       </ul>
     </div>
-    <div class="Footer-leyend"><em>
+    <!-- <div class="Footer-leyend"><em>
         <p>"Mi consejo es que no te preguntes por qué o de dónde, sino que disfrutes de tu helado mientras está en el plato. Esta es mi filosofía.” 
          </p> <p>― Thornton Wilder
-</p></em></div>
+</p></em></div> -->
   </div>
 </div>
 

@@ -8,7 +8,8 @@ Template Name: Página gustos
 <?php include TEMPLATEPATH . '/header1.php' ?>
 <?php include TEMPLATEPATH . '/contact.php' ?>
 
-	<main class="Gustos">
+<body class="Gustos">
+	<main class="Gustos-main">
 		<div class="Gustos-article">
 			<article class="Gustos-crema">
 				<h3 class="Gustos-crema-h3">Cremas</h3>		
@@ -106,8 +107,10 @@ Template Name: Página gustos
 			</article>
 		</div>
 	</main>
-	<?php get_footer(); ?>
-	
+	<div class="Gustos-footer">
+		<?php get_footer(); ?>
+	</div>
+</body>
 <script>
 
 function closeAll () {    

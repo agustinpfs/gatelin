@@ -6,6 +6,6 @@
 	</div>
 	<h2>Verdaderos artesanos</h2>
 	<figure>
-		<img src="http://localhost/wp-content/uploads/2016/02/gatelin.jpeg" alt="">
+		<img src="http://gatelin.pandawebs.net/wp-content/uploads/2016/02/gatelin.jpeg" alt="">
 	</figure>
 </div>

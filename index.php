@@ -39,7 +39,10 @@ Template Name: Página index
 	<?php endif; ?>
 </div>
 <?php get_footer(); ?>
-
+<div class="pedido">
+	<h2>Hacé tu pedido ya!</h2>
+	<span>473-6183</span>
+</div>
 
 <script>
 

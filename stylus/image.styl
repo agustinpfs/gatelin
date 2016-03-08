@@ -3,22 +3,27 @@
 	margin-bottom 3rem
 	display none
 	overflow: hidden
+	color white-d
 	h2
 		position absolute
-		background-color alpha(gatelin, .7)
+		// background-color alpha(gatelin, .7)
 		right 0
 		// font-size: 2rem
 		font-size: 2rem
 		color white
 		font-weight: 300
-		// font-family: 'Courgette', cursive
+		font-family: 'Courgette', cursive
 		// font-family: arial
 		// text-transform: uppercase
 		// z-index: 20
+		text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.88)
+		margin-right .5rem
 	&-map
 		position absolute
 		background-color alpha(black, .7)
 		height: 100%
+		padding-right .5rem
+		padding-left .5rem
 		span
 			display: block
 			font-size: 3rem
@@ -41,7 +46,8 @@
 		right: 0
 		left 0
 		background-color alpha(black, .3)
-		z-index: 20
+		
+		// z-index: 20
 		
 @media (min-width: 700px)
 	.Image

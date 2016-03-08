@@ -11,10 +11,10 @@ if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'http://santiagoclavijo.com';
+window.location.href = 'http://gatelin.pandawebs.net';
 </script>";
 } else {
-echo 'Fall¨® el envio';
+echo 'Falló el envio';
 }
 }
 ?>

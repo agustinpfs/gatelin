@@ -1,10 +1,16 @@
 <div class="Header">
+	<div class="Header-mobile">
+		<span class="icon-phone"> 473-6183</span>
+	</div>
 	<div class="Header-top">
-	 	<div class="Header-logo">
-	        <figure><img src="http://localhost/wp-content/uploads/2016/02/logo.png" alt=""/></figure>
-			<h1><?php bloginfo('title' ); ?></h1>
-			<!-- <span><?php bloginfo('description'); ?></span> -->
-	  	</div>
+		<a href="/">
+		 	<div class="Header-logo">
+
+		        <figure><img src="http://localhost/wp-content/uploads/2016/02/logo.png" alt=""/></figure>
+				<h1><?php bloginfo('title' ); ?></h1>
+				<!-- <span><?php bloginfo('description'); ?></span> -->
+		  	</div>
+	  	</a>
 	  	<div class="Header-menu">
 	  		<div class="Header-menu_desktop">
 	  			<?php include TEMPLATEPATH . '/nav.php' ?>
